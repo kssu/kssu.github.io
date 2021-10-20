@@ -1,0 +1,17 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/words';
+@import 'blocks/intime';
+@import 'blocks/conditions';
+@import 'blocks/promises';
+@import 'blocks/list';
+@import 'blocks/soon';
+@import 'blocks/_last';
+@import 'blocks/media';
+
