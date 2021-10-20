@@ -1,0 +1,47 @@
+.intime {
+    min-height: 850px;
+    padding-top: 50px;
+    &__titel {
+        font-family: Sora;
+        font-weight:700;
+        font-size: 86px;
+        line-height: 108px;
+        color: #F4B301;
+        span {
+            color:  #3A3E46;;
+        }
+    }
+    &__items {
+        display: flex;
+        margin-top: 100px;
+
+    }
+    &__item {
+        padding-left: 38px;
+
+    }
+    &__yellow {
+        width: 96px;
+        height: 96px;
+        background: #FED053;
+        position: relative;
+        img {
+            position: absolute;
+            top: -30px;
+            left: 15px;
+
+        }
+    }
+    &__header {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        color: #1D2228;
+    }
+    &__descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        color: #1D2228;
+    }
+}

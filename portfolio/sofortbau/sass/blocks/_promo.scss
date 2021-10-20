@@ -1,0 +1,36 @@
+.promo {
+    padding: 80px 0 80px 0;
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    background: url(../img/bg_main.jpg) center (center/cover) no-repeat;
+    &__white {
+        width: 732px;
+        height: 300px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-left: 10px;
+        }
+    }
+    &__yellow {
+        width: 636px;
+        height: 200px;
+        background: #F4A202;
+        h1 {
+            padding-top: 40px;
+            padding-left: 150px;
+            margin: 0 auto;
+            font-family: Sora;
+            font-weight: 700;
+            font-size: 31px;
+            color: #FFFFFF;
+        }
+        span {
+            font-weight: 300;
+
+        }
+    }
+}

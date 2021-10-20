@@ -1,0 +1,31 @@
+.words {
+    min-height: 600px;
+    background: #FBCE52;
+    padding-top: 50px;
+    &__items {
+        margin-top: 50px;
+    }
+    &__item {
+        display: flex;
+        position: relative;  
+        h2 {
+            padding-left: 25px;
+            font-weight: 700;
+            font-size: 86px;
+            color: #FFFFFF;
+            line-height: 11px;
+            span {
+                width: 5px;
+                height: 5px;
+                color: #1D2228;
+            }
+        }
+    }
+    &__number {
+        position: absolute;
+        top: 25px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #1D2228;
+    }
+}
